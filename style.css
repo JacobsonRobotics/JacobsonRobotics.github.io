@@ -85,10 +85,24 @@ nav {
 }
 
 .centered-gif {
-    max-width: 50%;
     display: block;
     margin: 0 auto;
 }
+
+@media (min-width: 651px) {
+    /* For screens wider than 600px (desktop) */
+    .centered-gif {
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 650px) {
+    /* For screens 600px or narrower (e.g., iPhone) */
+    .centered-gif {
+        max-width: 100%;
+    }
+}
+
 
 .container.about {
     flex: 1;

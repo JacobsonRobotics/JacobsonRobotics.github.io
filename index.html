@@ -3,72 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Jacobson Robotics - Innovating the Future</title>
-    <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #007bff;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        h1 {
-            font-size: 36px;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-
-        .cta-button {
-            display: block;
-            text-align: center;
-            background-color: #007bff;
-            color: #fff;
-            font-size: 20px;
-            padding: 15px 30px;
-            margin: 20px auto;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        .cta-button:hover {
-            background-color: #0056b3;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Jacobson Robotics</h1>
-        <p>Innovating the Future of Robotics</p>
+        <nav>
+            <div class="logo">
+                <!--<img src="images/logo.png" alt="Jacobson Robotics Logo">-->
+            </div>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header">
+            <h1>Jacobson Robotics</h1>
+            <p>Innovating the Future of Robotics</p>
+        </div>
     </header>
 
-    <div class="container">
-        <h2>About Us</h2>
-        <p>Jacobson Robotics is a cutting-edge robotics startup based in sunny San Diego, California. We are passionate about pushing the boundaries of technology to create innovative robotic solutions that make a real impact on the world.</p>
-        <p>Our team of dedicated engineers and researchers is committed to exploring new possibilities in robotics and artificial intelligence.</p>
+    <div class="main-content">
+        <div class="gif-container">
+            <img src="images/rex.gif" alt="Rex (Gif)" class="centered-gif">
+        </div>
 
-        <h2>Join Us</h2>
-        <p>If you share our passion for robotics and want to be part of our journey, we'd love to hear from you!</p>
-        <a href="mailto:contact@jacobsonrobotics.com" class="cta-button">Contact Us</a>
+        <div class="container about" id="about">
+            <h2>About Us</h2>
+            <p>Jacobson Robotics is a pioneering robotics startup headquartered in San Diego, California.</p>
+
+            <p>Our dedicated team of engineers is driven by the belief that technology should allow individuals and organizations to tackle real-world challenges. To achieve this, we are focused on developing low-cost, highly adaptable, and incredibly robust robots. Our goal is to enable their use across a wide spectrum of applications, with minimal setup costs.</p>
+
+            <p>At Jacobson Robotics, we are not just pushing the boundaries of technology; we are tearing them down to bring about the future - to make the robotic worlds of science fiction a reality. Join us in this exciting adventure towards a future where technology knows no bounds.</p>
+        </div>
     </div>
+
+    <div class="container products" id="products">
+        <h2>Our Products</h2>
+        <div class="product images">
+            <img src="images/rex.png" alt="Rex 1" class="product-image">
+            <img src="images/rex2.png" alt="Rex 2" class="product-image">
+        </div>
+        <div class="product description">
+            <h3>Rex Quadruped</h3>
+            <p>Rex is our experimental quadrupedal robot, the first in a line of low-cost, modifiable, and durable robots. Designed to be versatile and affordable, Rex is poised to revolutionize robotics by offering adaptability and durability in a compact package.</p>
+        </div>
+    </div>
+
+    <div class="container contact" id="contact">
+        <h2>Join Our Team</h2>
+        <p>Interested in shaping the future of robotics? Reach out to us today!</p>
+        <a href="mailto:info@jacobsonrobotics.com" class="cta-button">Email Us</a>
+    </div>    
 
     <footer>
         <p>&copy; 2023 Jacobson Robotics</p>
